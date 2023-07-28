@@ -1,0 +1,26 @@
+*{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2.rojos{
+
+    border: 1px solid crimson;
+    /*background-color: crimson;*/
+}
+
+h2.verdes{
+    border: 1px solid springgreen;
+    /*background-color: SpringGreen;*/
+}
+
+h2.azules{
+    background-color: #5F9EA0;
+}
+
+h2.morados{
+    background-color: #9370DB;
+}
+
+
+

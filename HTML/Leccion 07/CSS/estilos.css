@@ -1,0 +1,59 @@
+html{
+     height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(180deg, #ffdc97 0, #ffdf94 7.14%, 
+                                #ffe392 14.29%, #ffe691 21.43%, #f6e992 28.57%, 
+                                #ebec95 35.71%, #e0ef98 42.86%, #d5f29d 50%,  
+                                #c9f4a3 57.14%, #bef7aa 64.29%, #b1f9b2 71.43%, 
+                                #a5fabb 78.57%, #99fcc4 85.71%, #8cfdce 92.86%, #7ffed9 100%);
+
+}
+
+.contenedor{
+    margin: 50px auto;
+    width: 400px;
+    padding: 30px;
+    background: rgba(0, 0, 0, .3);
+    border-radius: 10px;
+}
+
+.contenedor h2{
+        margin: 0 0 30px;
+        padding: 0;
+        font-size: 30px;
+        color: #6A26A3;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contenedor .elemento label{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contenedor .elemento input{
+    width: 100%;
+    padding: 10px 0;
+    color: white;
+    background: transparent;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    border-bottom:  1px solid white;
+    margin-bottom: 30px;
+}
+
+.contenedor .elemento input[type="submit"]{
+    background-color: #284CB5;
+    border: none;
+    letter-spacing: 5px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 15px;
+    margin-top: 30px;
+}
+

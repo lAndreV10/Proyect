@@ -1,0 +1,27 @@
+
+/*Se aplica a todos los elementos con estas propiedades*/
+
+/*Identificador CSS*/
+#titulo_principal{
+    color: #841932;
+    text-align: center;
+    margin: 15px;
+}
+
+h2 {
+    color: #49912D;
+}
+
+P{
+    color: rgb(20, 170, 175);
+}
+
+
+/*Para clases en CSS*/
+.tarjeta{
+    border: 1px solid #be5b72;
+    background-color: blanchedalmond;
+    text-align: center;
+    margin: 15px 100px;
+    padding: 10px;
+}

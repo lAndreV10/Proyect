@@ -1,0 +1,37 @@
+ table{
+   width: 100%;
+ }
+ 
+ 
+ table, th, td{
+    border: 1px solid #6065AB;
+    border-collapse: collapse;
+    padding: 5px 2px 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+ caption{
+   color: #5D9D74;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size: 25px;
+   line-height: 30px;
+}
+
+th{
+   background-color: #003566;
+   color: #dad7cd;
+}
+/*Renglones pares*/
+tr:nth-child(even){
+   background-color: #bbd0ff;
+}
+
+tr:nth-child(odd){
+   background-color: #b8c0ff;
+}
+
+
+
+ td{
+   text-align: center;
+ }
